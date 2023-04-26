@@ -10,7 +10,7 @@ const SideBarItem: React.FC<SideBarItemProps> = ({ label, href, icon: Icon, onCl
     return (
         <div className='flex flex-row items-center'>
             <div
-                className='relative rounded-full p-4 inset-14 flex items-center justify-center hover:bg-slate-300 hover:bg-opacity-10 cursor-pointer transition duration-200
+                className='relative rounded-full p-4  flex items-center justify-center hover:bg-slate-300 hover:bg-opacity-10 cursor-pointer transition duration-200
                 lg:hidden
             '
             >

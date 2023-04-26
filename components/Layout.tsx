@@ -1,4 +1,4 @@
-import { SideBar } from './';
+import { SideBar, FollowBar } from './';
 
 interface LayoutProps {
     children: React.ReactNode
@@ -19,6 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     ">
                         {children}
                     </div>
+                    <FollowBar />
                 </div>
             </div>
         </div>
