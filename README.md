@@ -30,13 +30,13 @@ This project is a Twitter clone that allows users to create accounts, post tweet
 1. Clone the repository:
 
 ```
-git clone https://github.com/MajidRaimi/twitter-clone.git
+git clone https://github.com/MajidRaimi/TwitterClone.git
 ```
 
 2. Install the dependencies:
 
 ```zsh
-cd twitter-clone
+cd TwitterClone
 npm install
 ```
 
